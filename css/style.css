@@ -3,3 +3,25 @@
 a {
   font-family: 'Lora', serif;
 }
+
+table {
+    width: 100%; /* Ширина таблицы */
+    background: white; /* Цвет фона таблицы */
+    color: black; /* Цвет текста */
+    border-spacing: 1px; /* Расстояние между ячейками */
+    /*border-radius: 100px;*/
+}
+
+td, th {
+    background: #d7e3d7; /* Цвет фона ячеек */
+    padding: 5px; /* Поля вокруг текста */
+    border: 5px solid black;
+}
+
+tr td a {
+  color: black;
+}
+
+tr td a:hover {
+  color: grey;
+}
