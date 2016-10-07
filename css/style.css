@@ -4,6 +4,10 @@ a {
   font-family: 'Lora', serif;
 }
 
+p {
+  font-family: 'Lora', serif;
+}
+
 table {
     width: 100%; /* Ширина таблицы */
     background: white; /* Цвет фона таблицы */
@@ -24,4 +28,12 @@ tr td a {
 
 tr td a:hover {
   color: grey;
+}
+
+.both {
+  font-size: 15px;
+  padding: 5px;
+  padding-left: 5%;
+  color: white;
+  background-color: #3d3e3c;
 }
