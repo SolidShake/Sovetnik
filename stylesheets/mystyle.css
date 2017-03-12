@@ -1,0 +1,95 @@
+/*body {
+  background-color: #36506C;
+  color: green;
+}*/
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Infant');
+
+@font-face {
+  font-family: Quiza Pro Regular;
+  src: url(../fonts/Quiza Pro Regular.otf);
+}
+
+@font-face {
+  font-family: Journalism;
+  src: url(../fonts/journalism2.ttf);
+}
+
+header {
+  font-family: Journalism;
+}
+
+body {
+  font-family: Quiza Pro Regular;
+  /*..font-family: 'PT Sans', sans-serif;*/
+}
+
+h3 {
+  font-family: Journalism;
+}
+
+nav {
+  width: 100%;
+  text-align: center;
+  /*height: 75px;*/
+  color: #fff;
+  margin: 0 auto;
+  /*word-spacing: 25px;*/
+  /*background: #D6503E;*/
+}
+
+/*#main-menu ul {
+
+  text-align:center;
+}*/
+/*#main-menu {
+  text-align: center;
+}*/
+
+#main-menu li {
+  display: inline-block;
+}
+
+#main-menu:after {
+  display: inline-block;
+  content: "";
+  width: 100%;
+}
+
+/*#main-menu li {
+  display: inline;
+}*/
+
+#main-menu li > a {
+  font-family: 'Cormorant Infant', serif;
+  margin-bottom: 0px;
+  font-size: 30px;
+  color: #36506C;
+}
+
+table, th, td {
+  border: 1px solid grey;
+}
+
+#active-link {
+  text-decoration: underline;
+}
+
+header {
+  height: 50px;
+  margin-bottom: 97px;
+}
+
+nav {
+  background-color: white;
+  top: 131px;
+  margin-bottom: 0px;
+  position: fixed;
+  z-index: 1000;
+}
+
+#sidebar {
+  position: fixed;
+  top: 228px;
+  left: 70%;
+  z-index: 1000;
+}

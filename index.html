@@ -1,82 +1,97 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html>
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Советник</title>
-	<link rel="stylesheet" href="./css/bootstrap.min.css">
-	<link rel="stylesheet" href="./css/offcanvas.css">
-  <link rel="stylesheet" href="./css/style.css">
-  <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+    <link rel="stylesheet" type="text/css" href="stylesheets/mystyle.css" media="screen">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <title>Sovetnik</title>
   </head>
 
   <body>
-    <!-- шапка сайта -->
-    <nav class="navbar navbar-fixed-top navbar-inverse">
-      <div class="container">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="#">Советник</a>
-        </div>
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Главная</a></li>
-            <li><a href="./pages/services.html">Услуги</a></li>
-            <li><a href="./pages/prices.html">Цены</a></li>
-            <li><a href="./pages/faq.html">FAQ</a></li>
-            <li><a href="./pages/contacts.html">Контакты</a></li>
-            <li><p style="color: white; margin-top: 10px; margin-left: 100px; font-size: 20px; font-family: 'Lora', serif">8(921)777-77-77</p></li>
-          </ul>
-        </div>
+    <header>
+      <div class="inner">
+        <h1>Ваш советник</h1>
+
+        <!-- <a href="https://github.com/SolidShake" class="button"><small>Follow me on</small> GitHub</a> -->
       </div>
+
+    </header>
+
+    <nav id="top-nav">
+      <ul id="main-menu">
+        <li><a href="services.html">Услуги</a></li>
+        <li><a href="#about">О нас</a></li>
+        <li><a href="#contacts">Контакты</a></li>
+      </ul>
     </nav>
 
-	<div class="container">
-	  <div class="row row-offcanvas row-offcanvas-right">
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
 
-	    <div class="col-xs-12 col-sm-9">
-          <div class="jumbotron">
-            <h2>Регистрация ООО и ликвидация фирм</h2></br></br>
-            <img src="main.jpg" alt="изображение" />
-            <p>Наша компания специализируется на предоставлении услуг в сфере корпоративного и гражданского права.</p></br>
-            <p>Основные принципы нашей работы:</br>
-			         - законность;</br>
-			         - индивидуальный подход к каждому клиенту;</br>
-			         - конфиденциальность информации клиента. Специалисты нашей компании успешно помогают клиентам решать вопросы,
-               связанные с регистрацией фирм, регистрацией некоммерческих организаций, внесением изменений, ликвидацией организаций,
-               ведением бухгалтерского учета, ведением гражданских и арбитражных дел. Также мы представляем интересы наших клиентов в гос. органах.</br></br>
-               Наши юристы бесплатно проконсультируют вас по любым вопросам в области ведения предпринимательской деятельности и в области гражданского права.</p>
-			      <p>Мы желаем успеха Вам и Вашему бизнесу, надеемся на установление долговременных, взаимовыгодных отношений и готовы рассмотреть любые предложения
-               и пожелания по вопросам возможного сотрудничества.</p>
-			      <p>Стоимость регистрации ООО и других услуг в нашей фирме вполне демократична, в этом Вы сможете убедиться, обратившись к прайс-листу на сайте.</p>
+          <!-- <a href="#">Услуги </a><a href="#about">О нас </a><a href="#contacts">Контакты</a> -->
+          <!-- <h3> -->
+          <!-- <a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Регистрация ООО и ликвидация фирм.</h3> -->
+          <h3>Регистрация ООО и ликвидация фирм.</h3>
+          <img src="images/main-image.jpg" alt="изображение" />
+
+          <p>Наша компания специализируется на предоставлении услуг в сфере корпоративного и гражданского права.</p>
+          <h4>Основные принципы нашей работы:</h4>
+          <ul>
+            <li>законность;</li>
+            <li>индивидуальный подход к каждому клиенту;</li>
+            <li>конфиденциальность информации клиента. Специалисты нашей компании успешно помогают клиентам решать вопросы, связанные с регистрацией фирм, регистрацией некоммерческих организаций, внесением изменений, ликвидацией организаций, ведением бухгалтерского учета, ведением гражданских и арбитражных дел. Также мы представляем интересы наших клиентов в гос. органах.</li>
+          </ul>
+
+          <h3>О нас:</h3>
+          <div id="about">
+            <p>Наш адрес: Кирочная ул., 23, Санкт-Петербург, 191123</p>
           </div>
-	  	</div>
 
-		<!-- ссылки справа -->
-	  	<div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar">
-          <div class="list-group">
-            <p class="list-group-item" style="font-size: 20px; text-align: center; background: #3d3e3c; color: white;">Наши услуги</p>
-            <a href="#" class="list-group-item">Регистрация коммерческих организаций и ИП</a>
-            <a href="#" class="list-group-item">Регистрация некоммерческих организаций</a>
-            <a href="#" class="list-group-item">Внесение изменений</a>
-            <a href="#" class="list-group-item">Реорганизация</a>
-            <a href="#" class="list-group-item">Ликвидация</a>
-            <a href="#" class="list-group-item">Регистрация филиалов и представительств</a>
-            <a href="#" class="list-group-item">Создание ТСЖ</a>
-            <a href="#" class="list-group-item">Составление и экспертиза договоров</a>
-            <a href="#" class="list-group-item">Эмиссия акций</a>
-            <a href="#" class="list-group-item">Гражданские и арбитражные дела</a>
-            <a href="#" class="list-group-item">Юридическое сопровождение</a>
-            <a href="#" class="list-group-item">Бухгалтерское сопровождение</a>
-            <a href="#" class="list-group-item">Оффшоры</a>
+          <div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.3089575669617!2d30.360696374857707!3d59.94360827276778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696319e955cbf0b%3A0x386a03aecd4e75b8!2z0JrQuNGA0L7Rh9C90LDRjyDRg9C7LiwgMjMsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExMjM!5e0!3m2!1sru!2sru!4v1479552088342" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <!-- <iframe src="https://api-maps.yandex.ru/frame/v1/-/CZw4ZALD" width="560" height="400" frameborder="0"></iframe> -->
           </div>
-        </div>
-	  </div>
 
-	</div>
+          <h3>Контакты</h3>
+          <div id="contacts">
+            <p>Телефон: 8-800-00-00</p>
+            <p>E-mail: exemple@exemple.com</p>
+          </div>
 
-  <footer class="both">
-    <p>2016-2016, designed by Utkin Artem</p>
-  </footer>
+        </section>
 
+        <aside id="sidebar">
+          <p>Наши услуги</p>
+          <ul>
+            <li><a href="services.html#reg-com-org">Регистрация коммерческих организаций и ИП</a></li>
+            <li><a href="services.html#reg-necom-org">Регистрация некоммерческих организаций</a></li>
+            <li><a href="services.html#changes">Внесение изменений</a></li>
+            <li><a href="#">Реорганизация</a></li>
+            <li><a href="#">Ликвидация</a></li>
+            <li><a href="#">Регистрация филиалов и представительств</a></li>
+            <li><a href="#">Создание ТСЖ</a></li>
+            <li><a href="#">Составление и экспертиза договоров</a></li>
+            <li><a href="#">Эмиссия акций</a></li>
+            <li><a href="#">Гражданские и арбитражные дела</a></li>
+            <li><a href="#">Юридическое сопровождение</a></li>
+            <li><a href="#">Бухгалтерское сопровождение</a></li>
+            <li><a href="#">Оффшоры</a></li>
+            <li><a href="#">Бесплатные консультации</a></li>
+          </ul>
+        </aside>
+      </div>
+    </div>
+    <script src="javascripts/jquery-3.1.1.min.js"></script>
+    <script src="javascripts/main.js"></script>
   </body>
 </html>
